@@ -1,0 +1,16 @@
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    border-bottom: 2px solid transparent;
+
+    &:hover{
+        border-bottom: 2px solid black;
+    }
+}
+
+nav{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
